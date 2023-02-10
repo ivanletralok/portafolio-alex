@@ -15,12 +15,14 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    particlesJS.load('particles-js', 'assets/particles.json', () => {
-      console.log('callback - particles.js config loaded');
-    });
+   particlesJS.load('particles-js', 'assets/particles.json', () => {
+     console.log('callback - particles.js config loaded');
+   });
 
   }
 
 
-
+  onClick() {
+    console.log('clicked');
+  }
 }

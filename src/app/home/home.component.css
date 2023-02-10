@@ -1,12 +1,16 @@
+body {
+  background-color: #af0909;
+  height: 100vh;
+
+}
 .backgroung-particles {
   position: absolute;
-  background-color: brown;
   width: 100%;
   height: 93vh;
 }
 
 .header {
-  background-color: brown;
+  background-color: #af0909;
   display: flex;
   padding: 0.5em;
   font-family: cursive;
@@ -29,24 +33,44 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  position: absolute;
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
 
 .title span {
-  font-size: 5em;
+  font-size: 6em;
   font-family: cursive;
   color: white;
   font-weight: bold;
 }
+
 .description span {
   font-family: cursive;
-  color: white;
+  color:white;
   font-size: 1.5em;
+}
+
+.full-name {
+  margin-top: 0;
+  color: white;
+  font-size: 1.8em;
+  font-family: cursive;
+  margin-bottom: 1em;
 
 }
+
+.social-red {
+  font-size: 1.8em;
+  margin-top: 50px;
+}
+
 span {
   margin: 0.5em;
+}
+
+.bx {
+position: relative;
+  cursor: pointer !important;
+  margin: 10px;
 }
 
 #particles-js {
